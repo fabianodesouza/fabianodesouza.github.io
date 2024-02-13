@@ -1,0 +1,261 @@
+@media(max-width: 1200px) {
+
+    html {
+
+        font-size: 55%;
+    }
+
+    .home {
+
+        padding: 1rem 4rem;
+    }
+
+
+}
+
+
+@media(max-width: 993px) {
+
+    body {
+
+        padding: 0;
+    }
+
+    /* MENU */
+    header {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        border-right: none;
+    }
+
+    
+    header .user_img {
+
+
+        display: none;
+    }
+
+    header #navbar {
+
+        display: none;
+    }
+
+
+    .btn-burger {
+
+        display: block;
+    }
+
+    /* SECÃO HOME */
+    .home #img-mobile {
+
+        display: block;
+    }
+
+  
+
+    .home .user_img_mobile {
+
+       margin: 0 auto;
+    
+    }
+    
+    
+
+
+
+}
+
+@media (max-width: 700px) {
+
+    html {
+
+        font-size: 50%;
+    }
+
+}
+
+@media(max-width: 690px) {
+
+    /* SECÃO HOME */
+    .home {
+
+        margin-top: -80px;
+    }
+
+    
+    /* SECÃO SKILL */
+    .skill_container {
+
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 100vh;
+    }
+  
+}
+
+@media(max-width: 450px) {
+
+    /* SECÃO HOME */
+    .home {
+
+        margin-top: -25px;
+    }
+
+
+    .home h1 {
+
+        font-size: 3.5rem;
+        
+    }
+
+    .home .skill-home {
+
+        font-size: 22px;
+    }
+
+
+    .home .icones-sociais {
+
+       justify-content: center;
+    }
+
+    .home .icones-sociais ion-icon {
+
+        margin: 0 10px;
+       
+    }
+
+
+    /* SEÇÃO SOBRE */
+    .sobre {
+
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    /* SEÇÃO SKILLS */
+    .skills {
+
+        padding: 0;
+        
+    }
+
+
+    .skills .skill_description {
+
+        text-align: center;
+    }
+
+    .skill_container {
+
+        padding-left: 30px;
+    }
+
+    /* SEÇÃO PORTFOLIO */
+    .box-img-port {
+
+        height: 600px;
+    }
+    .portfolio .box-conteudo {
+
+        padding: 2rem 2%;
+    }
+    .img-port {
+
+        width: 100%;
+        max-width: 360px;
+    }
+
+    .img-port-tarefa {
+
+        width: 100%;
+        max-width: 360px;
+    }
+
+    .img-port-scc {
+
+        width: 100%;
+        max-width: 360px;
+    }
+
+    /* FOOTER */
+    .footer {
+
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .footer-text {
+
+        font-size: 1.2rem;
+        padding-top: 5px;
+    }
+
+    .footer-iconTop a i {
+
+        font-size:  1.5rem;
+       
+    }
+
+   
+}
+
+@media(max-width: 380px) {
+
+     /* SECÃO HOME */
+
+     .home {
+
+        margin-top: 25px;
+    }
+
+    .home .botao_home button,
+    .sobre .dados button {
+    
+       
+        width: 130px;
+        font-size: 15px;
+       
+      
+    }
+
+    .home .icones-sociais {
+
+       margin-left: -20px;
+     }
+}
+
+@media(max-width: 395px) {
+
+    .home {
+
+        margin-top: 10px;
+    }
+}
+
+@media(max-width: 361px) {
+
+    /* SECÃO HOME */
+    .home {
+
+        margin-top: 60px;
+    }
+
+    .home .skill-home {
+
+        font-size: 20px;
+    }
+
+    /* FOOTER */
+  
+
+    .footer-text {
+
+        font-size: 1.1rem;
+    }
+   
+}
